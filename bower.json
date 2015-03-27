@@ -1,0 +1,32 @@
+{
+  "name": "playground",
+  "description": "Famo.us playground.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ShawnOceanHu/playground",
+  "authors": [{
+    "name": "Shawn Hu",
+    "url": "http://github.com/ShawnOceanHu/"
+  }],
+  "main": "app/index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "famo.us"
+  ],
+  "license": "ISC",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "src/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.15",
+    "almond": "~0.2.9",
+    "famous-polyfills": "~0.3.0",
+    "famous": "~0.3.5"
+  }
+}
